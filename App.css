@@ -1,0 +1,117 @@
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+}
+
+.container .black {
+  background-color: black;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .black .navbar {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .black .navbar .aboutMe {
+  border: 1px solid white;
+  width: 100px;
+  height: 50px;
+}
+
+.container .black .navbar .skill {
+  border: 1px solid white;
+  width: 100px;
+  height: 50px;
+}
+
+.container .black .navbar .projects {
+  border: 1px solid white;
+  width: 100px;
+  height: 50px;
+}
+
+.container .black .navbar .activities {
+  border: 1px solid white;
+  width: 100px;
+  height: 50px;
+}
+
+.container .black .navbar .career {
+  border: 1px solid white;
+  width: 100px;
+  height: 50px;
+}
+
+.container .black .centerBlack {
+  width: 500px;
+  height: 400px;
+  border: 2px solid white;
+  border-right-color: black;
+}
+
+.container .black .centerBlack .title {
+  position: relative;
+  left: 20px;
+  color: white;
+  font-size: 40px;
+  top: 20px;
+}
+
+.container .black .centerBlack .titleTwo {
+  color: white;
+  font-size: 30px;
+  position: relative;
+  left: 20px;
+  top: 100px;
+}
+
+.container .black .centerBlack .titleThr {
+  color: rgba(184, 180, 180, 0.993);
+  font-size: 19px;
+  position: relative;
+  top: 200px;
+  left: 10px;
+}
+
+.container .white {
+  background-color: whitesmoke;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .white .centerWhite {
+  width: 500px;
+  height: 400px;
+  border: 2px solid black;
+  border-left-color: white;
+  background: url("https://media.vlpt.us/images/yonghk423/post/d46f36ab-0181-4148-81a3-821338895242/0A046ACF-3AC7-4D80-B16B-F89BD2F99352.jpeg");
+  background-size: cover;
+}
+/*# sourceMappingURL=App.css.map */
