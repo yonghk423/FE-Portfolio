@@ -5,7 +5,7 @@ function App() {
   return (
   <>
   <div class="container">
-    <h1>프론트엔드 개발자 김용희입니다.</h1>
+    <h1>Front-end developer 김용희입니다💻</h1>
     <div class="gallery-wrap">
     <div class="item item-1"></div>
     <div class="item item-2"></div>
