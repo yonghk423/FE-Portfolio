@@ -99,34 +99,43 @@ img {
 .section-b {
   position: relative;
   background: url('https://media.vlpt.us/images/yonghk423/post/8cfb0877-b145-414a-9efe-80f80d0510be/image.png');
-  height: 1000px;
+  height: 1800px;
   background-size: cover;
 }
 
 .section-b-inner {
   color: #fff;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin: auto;
-  max-width: 860px;
-  padding: 5rem 0;
-
-  h3 {
-    font-size: 2rem;
+  .one {
+    width: 100px;
+    height: 100px;
   }
-
-  h2 {
-    font-size: 5rem;
-    margin-top: 1rem;
+  .two {
+    width: 100px;
+    height: 100px;
+  }  
+  .three {
+    width: 100px;
+    height: 100px;
   }
-
-  p {
-    margin-top: 1rem;
-    font-size: 1.5rem;
+  .four {
+    width: 100px;
+    height: 100px;
+  }
+  .five {
+    width: 100px;
+    height: 100px;
+  }
+  .six {
+    width: 100px;
+    height: 100px;
+  }
+  .seven {
+    width: 100px;
+    height: 100px;
+  }
+  .eight {
+    width: 100px;
+    height: 100px;
   }
 }
 
