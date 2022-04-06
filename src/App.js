@@ -21,7 +21,7 @@ function App() {
         <div>
           <h1>프론트엔드 개발자 김용희입니다.</h1>
           <p>
-            코딩을하며 부딪히는 과정에서 끊임없이 해결 방법을 찾으며 <br></br> 성장하고 있습니다. 성장의 큰 기틀인 기록하는 습관을 가지며 <br></br> 생산성과 지식의 지속성을 유지하기 위해 노력하고 있습니다. <br></br> 앞으로도 협업에서의 활발한 소통과 개발 과정에서의 성취감을 <br></br> 느끼고 발전해 나갈 것입니다😀:)
+            코딩을하며 부딪히는 과정에서 끊임없이 해결 방법을 찾으며 <br></br> 성장하고 있습니다. 성장의 큰 기틀인 기록하는 습관을 가지며 <br></br> 생산성과 지식의 지속성을 유지하기 위해 노력하고 있습니다. <br></br> 앞으로도 협업에서의 활발한 소통과 개발 과정에서의 성취감을 <br></br> 느끼고 발전해 나갈 것입니다:)
           </p>
           {/* <a href="#" class="btn">Read More</a> */}
         </div>
@@ -32,21 +32,25 @@ function App() {
     <section id="about" class="section-b">
       <div class="overlay">
         <div class="section-b-inner py-5">
-          <h2>4주 4인 팀 프로젝트 2021.11 - 2021.12</h2>
-          <h2>나랏말싸미는 우리말을 재밌게 배워 바르게 쓸 수 있도록 관련된 퀴즈를 제공하는 사이트입니다 </h2>
-          <h2>사용 스텍 JavaScript React JS React Hooks API Axios React Router Styled-Components </h2>
-          <h2>팀장 프론트엔드</h2>
+        <div className='gridone'> 
+          <div className='main'>
+            <h2 className='title'>4주 4인 팀 프로젝트 2021.11 - 2021.12</h2>
+            <h2 className='titletwo'>나랏말싸미 서비스</h2>
+            <h2 className='titlethr'>우리말을 재밌게 배워 바르게 쓸 수 있도록 관련된 퀴즈를 제공하는 사이트입니다 </h2>
+            <h2 className='titlefour'>포지션 : 팀장 프론트엔드</h2>
+            <h2 className='titlefive'>기술스텍</h2>  
+            <h2 className='titlesix'> JavaScript, React JS, React Hooks API, Axios, React Router, Styled-Components </h2>
+          </div>
+          <img className='zero' src='https://media.vlpt.us/images/yonghk423/post/590c8996-fac0-4740-b28b-2ecf80a5b939/LandingPage.gif'></img>
+        </div> 
           <h2>맡은 역할</h2>
+          <h2>MyPage UI 디자인 및 데이터 연동</h2>
           <img className='one' src='https://media.vlpt.us/images/yonghk423/post/4427df2d-707d-4b9e-8d4b-b78b0e682051/mypage1.png'></img>
           <img className='two' src="https://media.vlpt.us/images/yonghk423/post/b4187126-a54f-4383-b4a3-56207cda705a/MyPage1.gif" alt=''></img>
-          <img className='three' src='https://media.vlpt.us/images/yonghk423/post/414518d6-87e4-4b43-af80-82dd80bf7f4f/MyPage2.gif'></img>
-          <h2>UI</h2>
-          <p>local MyPage(main)의 UI는 아코디언 메뉴 형식으로 구성하였다. input type="checkbox" type="radio" 이 둘의 차이점은 heckbox는 중복 선택이 가능하며 radio 버튼은 단일 선택만 가능하다. 따라서 checkbox 타입을 사용하였다.</p>
-          <h2>기능과 api연동</h2>
-          <p>Local MyPage(Main)은 기본적으로 회원의 email, name, image, mileage 와 구매내역 내가 만든 문제를 볼 수가 있다
-email, name, image, mileage 기본 정보는 useState(userData)를 통해 초기 상태값을 지정해주고 axios를 통해 데이터를 받아오는데 useEffect를 통해 랜더링 될 때 데이터를 받아오며 받아온 값을 useState(setUserData)를 통해 상태값을 변경해주는 형식으로 코드를 구성하였다.
-구매 가능한 상품, 구매 내역들 또한 useState, useEffect, axios를 사용하여 같은 방식으로 구현하고 데이터 값은 map을 이용하여 값을 출력하였다.</p>
-          <h2>Local MyPage(RankModal)</h2>
+          <img className='three' src='https://media.vlpt.us/images/yonghk423/post/414518d6-87e4-4b43-af80-82dd80bf7f4f/MyPage2.gif'></img>          
+          <p>MyPage UI는 아코디언 메뉴 형식으로 구성하였습니다. input type="checkbox" , type="radio" 이 둘의 차이점은 checkbox는 중복 선택이 가능하며 radio 버튼은 단일 선택만 가능합니다. 따라서 단일 선택만 가능하도록 구성하도록 해야 했기 때문에 checkbox 타입을 사용하였습니다.</p>
+          <p>MyPage는 기본적으로 회원의 email, name, image, mileage 와 구매내역 내가 만든 문제를 볼 수가 있습니다.</p>
+          {/* <h2>Local MyPage(RankModal)</h2>
           <img className='four' src='https://media.vlpt.us/images/yonghk423/post/ef581d6b-fd99-4dd0-8587-9a6c97281e38/마이페이지-rankmodal.gif'></img>
           <h2>UI</h2>
           <h2>모달창 만들기</h2>
@@ -59,7 +63,7 @@ email, name, image, mileage 기본 정보는 useState(userData)를 통해 초기
           필요한 만큼 받아 오려면 구간을 정해줘야 하는데 limit값과 offset값을 설정하였으며 또한 버튼을 클릭 하였을 때 추가적으로 받아 올 수 있도록 설정하였다.</p>
           <h2>Login Signin UI</h2>
           <img className='five' src='https://media.vlpt.us/images/yonghk423/post/6a90c5e4-e2d9-4241-9ca7-4e43d99d520e/Login.gif'></img>
-          <img className='six' src='https://media.vlpt.us/images/yonghk423/post/525a7bc0-f56f-4740-a026-412046315040/SignUp.gif'></img>                 
+          <img className='six' src='https://media.vlpt.us/images/yonghk423/post/525a7bc0-f56f-4740-a026-412046315040/SignUp.gif'></img>                  */}
         </div>
       </div>
     </section>
