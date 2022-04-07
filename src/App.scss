@@ -95,11 +95,10 @@ img {
     margin: 1rem 0;
   }  
 }
-
+//--------------------------------------------------------------------------
 .section-b {
-  position: relative;
-  background: url('https://media.vlpt.us/images/yonghk423/post/8cfb0877-b145-414a-9efe-80f80d0510be/image.png');
-  height: 1800px;
+  position: relative;  
+  height: 2000px;
   background-size: cover;
 }
 
@@ -108,77 +107,86 @@ img {
   .gridone {
     display: grid;
     grid-template-columns: auto auto;
+    padding: 90px;
+    height: auto;
+    .main {
+      margin-right: 100px;
+      .title {
+        padding: 10px;
+        font-size: 40px;
+      }
+
+      .titletwo {
+        padding: 10px;
+        font-size: 40px;
+      }
+
+      .titlethr {
+        padding: 10px;
+        font-size: 20px;
+      }
+
+      .titlefour {
+        padding: 10px;
+        font-size: 20px;
+      }
+
+      .titlefive {
+        padding: 10px;
+        font-size: 20px;
+      }
+
+      .titlesix {
+        padding: 10px;
+        font-size: 18px;
+      }      
+    }
+    .zero {
+      width: 400px;
+      height: 400px;
+    }
+  }
+  
+  .gridtwo {
+    display: grid;
+    grid-template-columns: auto auto;
     padding: 100px;
-  }
+    .maintwo {
+      margin-right: 100px;
+    }
+    .imgone {
+      display: grid;
+      grid-template-columns: auto;
 
-  .main {
-    margin-right: 100px;
+      .one {
+        width: 400px;
+        height: 400px;
+        // padding: 10px;
+      }
+    }
   }
+  .gridthr {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 100px;
+    .mainthr {
 
-  .title {
-    padding: 10px;
-  }
-  .titletwo {
-    padding: 10px;
-  }
-  .titlethr {
-    padding: 10px;
-    font-size: 20px;
-  }
-  .titlefour {
-    padding: 10px;
-  }
-  .titlefive {
-    padding: 10px;
-  }
-  .titlesix {
-    padding: 10px;
-    font-size: 20px;
-  }
-  .zero {
-    width: 400px;
-    height: 400px;
-    position: relative;
-  }
-  .one {
-    width: 100px;
-    height: 100px;
-  }
-  .two {
-    width: 100px;
-    height: 100px;
+    }
+    .two {
+      width: 400px;
+      height: 400px;
+      padding: 10px;
+    }
   }  
-  .three {
-    width: 100px;
-    height: 100px;
-  }
-  .four {
-    width: 100px;
-    height: 100px;
-  }
-  .five {
-    width: 100px;
-    height: 100px;
-  }
-  .six {
-    width: 100px;
-    height: 100px;
-  }
-  .seven {
-    width: 100px;
-    height: 100px;
-  }
-  .eight {
-    width: 100px;
-    height: 100px;
-  }
+}
+.three {
+  width: 100px;
+  height: 100px;
 }
 
+//---------------------------------------------------------------------------------------
 .section-c {
-  position: relative;
-  background: url('https://media.vlpt.us/images/yonghk423/post/a955fab4-868d-4c5e-b7d8-06cd97d76e47/스크린샷%202022-04-03%20오후%203.40.20.png');
   height: 1000px;
-  background-size: cover;
 }
 
 .section-c-inner {
@@ -207,10 +215,7 @@ img {
     font-size: 1.5rem;
   }
 }
-
-
-
-
+//----------------------------------------------------------------------------
 .section-footer {
   background: var(--primary-color);
   color: #fff;
@@ -285,12 +290,6 @@ img {
     border-radius: 0 20px 20px 0;
   }
 }
-
-/* // .form-control-wrap {
-// 	position: relative;
-// 	display: inline-block;
-// 	width: 100%;
-// } */
 
 .btn {
   display: inline-block;
