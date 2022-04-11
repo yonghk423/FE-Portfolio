@@ -37,7 +37,7 @@ function App() {
         <div className='gridone'> 
           <div className='main'>
             <h2 className='title'>4주 4인 팀 프로젝트 <br></br> 2021.11 - 2021.12</h2>
-            <h2 className='titletwo'>나랏말싸미 서비스</h2>
+            <h2 className='titletwo'>나랏말싸미</h2>
             <h2 className='titlethr'>우리말을 재밌게 배워 바르게 쓸 수 있도록 관련된 퀴즈를 제공하는 사이트입니다 </h2>
             <h2 className='titlefour'>포지션 : 팀장 프론트엔드</h2>
             <h2 className='titlefive'>기술스텍</h2>  
@@ -86,7 +86,15 @@ function App() {
       </div>
     </section>   
 
-    <section class="section-a">test</section>
+    <section className='last'>
+      <h2>개인 프로젝트</h2>
+      <h2>2021. 12. 01</h2>
+      <h2>추억을 담다</h2>
+      <h2>즐겁게 식사도 하고 눈도 즐거웠던 장소를 기록할 수 있는 사이트입니다.</h2>
+      <h2>기술스텍</h2>
+      <h2>TypeScript,  ReactJS, React Hooks API, Redux.js, Redux-Thunk,  Axios, ExpressJS, Node.js, Sass(SCSS) </h2>
+      <img className='mainImg' src='https://velog.velcdn.com/images/yonghk423/post/6ad352f7-345b-412c-8452-5b45598ab674/image.png' alt=''></img>
+    </section>
     
     <footer class="section-footer py-4 bg-primary">
       <div class="container">
