@@ -92,8 +92,24 @@ function App() {
       <h2>추억을 담다</h2>
       <h2>즐겁게 식사도 하고 눈도 즐거웠던 장소를 기록할 수 있는 사이트입니다.</h2>
       <h2>기술스텍</h2>
-      <h2>TypeScript,  ReactJS, React Hooks API, Redux.js, Redux-Thunk,  Axios, ExpressJS, Node.js, Sass(SCSS) </h2>
-      <img className='mainImg' src='https://velog.velcdn.com/images/yonghk423/post/6ad352f7-345b-412c-8452-5b45598ab674/image.png' alt=''></img>
+      <h2>TypeScript,  ReactJS, React Hooks API, Redux.js, Redux-Thunk, Axios, ExpressJS, Node.js, Sass(SCSS)</h2>
+      <img className='projectImg' src='https://velog.velcdn.com/images/yonghk423/post/6ad352f7-345b-412c-8452-5b45598ab674/image.png' alt=''></img>
+      <h2>TypeScript를 사용한 이유</h2>
+      <p>타입스크립트는 자바스크립트를 상위호환하는 프로그래밍 언어로서 자바스크립트의 깊은 이해가 선행 되어야 한다고 생각합니다. 따라서 자바스크립트의 기본기를 꾸준하게 쌓아가는 중이며 이번 프로젝트를 계기로 타입스크립트 사용을 도전하게 되었습니다.</p>
+      <img className='tsImg' src='https://velog.velcdn.com/images/yonghk423/post/d64535ae-ba6a-42b1-8249-1264b7d4a5c7/image.png' alt=''></img>
+      <h2>메인 페이지 및 데이터 삭제</h2>
+      <img className='mainImg' src='https://velog.velcdn.com/images/yonghk423/post/8283c6a0-658e-4720-ae84-2491c3d1fad2/image.gif' alt=''></img>
+      <img className='mainImgTwo' src='https://velog.velcdn.com/images/yonghk423/post/f955682a-bd14-4b83-880d-5740b2eb6d89/image.gif' alt=''></img>
+      <h2>메인 페이지(데이터 추가하기)</h2>
+      <img className='infoImgOne' src='https://velog.velcdn.com/images/yonghk423/post/bae8a7db-049f-4674-b2f1-115f0fb3e189/image.gif' alt=''></img>
+      <img className='infoImgtwo' src='https://velog.velcdn.com/images/yonghk423/post/7e77b4db-caea-4b0f-8c4b-1bc123e2fdf7/image.gif' alt=''></img>
+      <h2>사진 세부 정보 확인, 즐겨찾기 추가, 글 작성 및 삭제</h2>
+      <img className='detailPageOne' src='https://velog.velcdn.com/images/yonghk423/post/36e6f313-4308-4d99-a1ae-4a4df30a061d/image.gif' alt=''></img>
+      <img className='detailPageTwo' src='https://velog.velcdn.com/images/yonghk423/post/baa1dfbf-4377-48e2-b72c-7eee2541cd11/image.gif' alt=''></img>
+      <img className='detailPageThr' src='https://velog.velcdn.com/images/yonghk423/post/85abb4eb-ca01-4b5d-af30-5e771c0f88a3/image.gif' alt=''></img>
+      <h2>즐겨찾기 목록 삭제 및 모달창(글 작성 및 삭제)</h2>
+      <img className='cartModalImgOne' src='https://velog.velcdn.com/images/yonghk423/post/b6317179-15b7-44a5-9dc8-fd0228adf7c5/image.gif' alt=''></img>
+      <img className='cartModalImgTwo' src='https://velog.velcdn.com/images/yonghk423/post/63285b02-b660-4236-9975-f51951ac4d94/image.gif' alt=''></img>
     </section>
     
     <footer class="section-footer py-4 bg-primary">
