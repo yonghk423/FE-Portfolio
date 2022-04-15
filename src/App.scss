@@ -215,51 +215,132 @@ img {
   background-color: #9c64a6;
   // height: 1000px;
   color: white;
-  .projectImg {
+  padding: 100px; 
+  .introBox {
+    display: grid;
+    grid-template-columns: auto auto;
+    .lastOne {
+      margin-right: 100px;
+    }
+    .projectImg {
+    padding: 10px;  
     width: 400px;
     height: 400px;
   }
-  .tsImg {
+  }
+  .tsBox {
+    display: grid;
+    grid-template-columns: auto auto;
+    .lastTwo {
+       margin-right: 100px;
+    }
+    .tsImg {
+    padding: 10px;  
     width: 400px;
     height: 400px;
   }
-  .mainImg {
-    width: 250px;
-    height: 250px;
   }
-  .mainImgTwo {
-    width: 250px;
-    height: 250px;
+  .reduxBox {
+    display: grid;
+    grid-template-columns: auto auto;
+    .lastThr {
+      margin-right: 100px;
+    }
+    .reduxImg {
+    padding: 10px;  
+    width: 400px;
+    height: 400px;
   }
-  .infoImgOne {
-    width: 250px;
-    height: 250px;
   }
-  .infoImgtwo {
-    width: 250px;
-    height: 250px;
-    
+  
+  
+  
+  .mainBox {
+    display: grid;
+    grid-template-columns: auto auto;
+    .lastFour {
+      margin-right: 100px;
+    }
+    .mainImg {
+      padding: 10px;  
+      width: 250px;
+      height: 250px;
+    }
+    .mainImgTwo {
+      padding: 10px;  
+      width: 250px;
+      height: 250px;
+    }
   }
-  .detailPageOne {
+  .mainInfoBox {
+    display: grid;
+    grid-template-columns: auto auto;
+    .lastFive {
+      margin-right: 100px;
+    }
+    .infoImgOne {
+    padding: 10px;  
     width: 250px;
     height: 250px;
+    }
+    .infoImgtwo {
+    padding: 10px;    
+    width: 250px;
+    height: 250px;    
+    }
+  }
+  .detailBox {
+    .lastSix {
+      margin-right: 100px;
+    }
+    display: grid;
+    grid-template-columns: auto auto;
+    .detailPageOne {
+    padding: 10px;  
+    width: 200px;
+    height: 200px;
   }
   .detailPageTwo {
-    width: 250px;
-    height: 250px;
+    padding: 10px;    
+    width: 200px;
+    height: 200px;
   }
   .detailPageThr {
-    width: 250px;
-    height: 250px;
+    padding: 10px;    
+    width: 200px;
+    height: 200px;
   }
-  .cartModalImgOne {
+  }  
+  .cartBox {
+    .lastSev {
+      margin-right: 100px;
+    }
+    display: grid;
+    grid-template-columns: auto auto;
+    .cartModalImgOne {
+    padding: 10px;      
     width: 250px;
     height: 250px;
   }
   .cartModalImgTwo {
+    padding: 10px; 
     width: 250px;
     height: 250px;
   }
+  }
+  .hookBox {
+    .lastEig {
+      margin-right: 100px;
+    }
+    display: grid;
+    grid-template-columns: auto auto;
+    .hookImg {
+      padding: 10px;
+      width: 400px;
+      height: 400px;
+    }
+  }
+  
 }
 //----------------------------------------------------------------------------------------------------------------------------
 .section-c {

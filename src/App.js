@@ -87,44 +87,85 @@ function App() {
     </section>   
 
     <section className='last'>
+    <div className='introBox'>  
+    <div className='lastOne'>
       <h2>개인 프로젝트</h2>
       <h2>2021. 12. 01</h2>
       <h2>추억을 담다</h2>
       <h2>즐겁게 식사도 하고 눈도 즐거웠던 장소를 기록할 수 있는 사이트입니다.</h2>
       <h2>기술스텍</h2>
       <h2>TypeScript,  ReactJS, React Hooks API, Redux.js, Redux-Thunk, Axios, ExpressJS, Node.js, Sass(SCSS)</h2>
-      <img className='projectImg' src='https://velog.velcdn.com/images/yonghk423/post/6ad352f7-345b-412c-8452-5b45598ab674/image.png' alt=''></img>
+    </div>      
+    <img className='projectImg' src='https://velog.velcdn.com/images/yonghk423/post/6ad352f7-345b-412c-8452-5b45598ab674/image.png' alt=''></img>
+    </div>
+    <div className='tsBox'>
+    <div className='lastTwo'>
       <h2>TypeScript를 사용한 이유</h2>
-      <p>높은 수준의 코드 탐색과 디버깅
-
-타입스크립트는 코드에 목적을 명시하고 목적에 맞지 않는 타입의 변수나 함수들에서 에러를 발생시켜 버그를 사전에 제거합니다. 또한 코드 자동완성이나 실행 전 피드백을 제공하여 작업과 동시에 디버깅이 가능해 생산성을 높일 수 있습니다. 실제로 한 연구에 따르면 모든 자바스크립트 버그의 15%가 사전에 타입스크립트로 감지할 수 있다고 합니다.
-
-자바스크립트 호환
-
-타입스크립트는 자바스크립트와 100% 호환됩니다. 따라서 프론트엔드 또는 백엔드 어디든 자바스크립트를 사용할 수 있는 곳이라면 타입스크립트도 쓸 수 있습니다. 타입스크립트는 앱과 웹을 구현하는 자바스크립트와 동일한 용도로 사용 가능하며 서버 단에서 개발이 이루어지는 복잡한 대형 프로젝트에서도 빛을 발합니다.
-
-강력한 생태계
-
-타입스크립트는 그리 오래되지 않은 언어임에도 불구하고 강력한 생태계를 가지고 있습니다. 대부분의 라이브러리들이 타입스크립트를 지원하며 마이크로소프트의 비주얼 스튜디오 코드(VSCode)를 비롯해 각종 에디터가 타입스크립트 관련 기능과 플러그인을 지원합니다.</p>
-      <img className='tsImg' src='https://velog.velcdn.com/images/yonghk423/post/d64535ae-ba6a-42b1-8249-1264b7d4a5c7/image.png' alt=''></img>
+      <h2>높은 수준의 코드 탐색과 디버깅</h2>
+      <p>타입스크립트는 코드에 목적을 명시하고 목적에 맞지 않는 타입의 변수나 함수들에서 에러를 발생시켜 버그를 사전에 제거합니다. 또한 코드 자동완성이나 실행 전 피드백을 제공하여 작업과 동시에 디버깅이 가능해 생산성을 높일 수 있습니다. 실제로 한 연구에 따르면 모든 자바스크립트 버그의 15%가 사전에 타입스크립트로 감지할 수 있다고 합니다.</p>
+      <h2>자바스크립트 호환</h2>
+      <p>타입스크립트는 자바스크립트와 100% 호환됩니다. 따라서 프론트엔드 또는 백엔드 어디든 자바스크립트를 사용할 수 있는 곳이라면 타입스크립트도 쓸 수 있습니다. 타입스크립트는 앱과 웹을 구현하는 자바스크립트와 동일한 용도로 사용 가능하며 서버 단에서 개발이 이루어지는 복잡한 대형 프로젝트에서도 빛을 발합니다.</p>
+      <h2>강력한 생태계</h2>
+      <p>타입스크립트는 그리 오래되지 않은 언어임에도 불구하고 강력한 생태계를 가지고 있습니다. 대부분의 라이브러리들이 타입스크립트를 지원하며 마이크로소프트의 비주얼 스튜디오 코드(VSCode)를 비롯해 각종 에디터가 타입스크립트 관련 기능과 플러그인을 지원합니다.</p>
+    </div>  
+    <img className='tsImg' src='https://velog.velcdn.com/images/yonghk423/post/d64535ae-ba6a-42b1-8249-1264b7d4a5c7/image.png' alt=''></img>
+    </div>
+    <div className='reduxBox'>
+    <div className='lastThr'>   
       <h2>Redux</h2>
       <p>Props 문법의 번거로움과 복잡 다양한 상태의 효율적인 관리를 위해 상태 관리 라이브러리 Redux를 사용하게 되었습니다. 앞에서 말한 두가지 장점을 구체적으로 설명하면 기존 React 라이브러리만 사용하는 경우에는 부모에서 자식의 자식의 자식까지 상태를 내렸어야 했는데, 리덕스를 사용하면 스토어를 사용하여 상태를 컴포넌트 구조의 바깥에 두고, 여러 컴포넌트를 거쳐서 받아올 필요 없이 아무리 깊숙한 컴포넌트에 있다 하더라도 직속 부모에게서 받아오는 것 처럼 원하는 상태값을 골라서 props 를 편리하게 받아올 수 있습니다 또한 스토어를 통해 상태를 한 곳에서 관리하기 때문에 유지 보수가 상대적으로 용이합니다.
 . 따라서 데이터를 추가하고 삭제하고 해당하는 데이터에 글을 기록하고 삭제하는 모든 과정을 Redux를 통하여 관리하였습니다.</p>
-      <h2>메인 페이지 및 데이터 삭제</h2>      
+    </div>
+    <img className='reduxImg' src='https://velog.velcdn.com/images/fstone/post/9f5c4502-8820-48dd-8e66-8cd402530e35/redux-logo-landscape.png' alt=''></img>
+    </div>
+    <div className='mainBox'>
+      <div className='lastFour'>
+      <h2>메인 페이지 및 데이터 삭제</h2>
+      <p></p>      
+      </div>
+      <div>
       <img className='mainImg' src='https://velog.velcdn.com/images/yonghk423/post/8283c6a0-658e-4720-ae84-2491c3d1fad2/image.gif' alt=''></img>
       <img className='mainImgTwo' src='https://velog.velcdn.com/images/yonghk423/post/f955682a-bd14-4b83-880d-5740b2eb6d89/image.gif' alt=''></img>
-      <h2>메인 페이지(데이터 추가하기)</h2>      
+      </div>
+    </div>
+    <div className='mainInfoBox'>
+      <div className='lastFive'>  
+      <h2>메인 페이지(데이터 추가하기)</h2>
+      <p></p>
+      </div>
+      <div>      
       <img className='infoImgOne' src='https://velog.velcdn.com/images/yonghk423/post/bae8a7db-049f-4674-b2f1-115f0fb3e189/image.gif' alt=''></img>
       <img className='infoImgtwo' src='https://velog.velcdn.com/images/yonghk423/post/7e77b4db-caea-4b0f-8c4b-1bc123e2fdf7/image.gif' alt=''></img>
+      </div>
+    </div>
+    <div className='detailBox'> 
+      <div className='lastSix'> 
       <h2>사진 세부 정보 확인, 즐겨찾기 추가, 글 작성 및 삭제</h2>
+      <p></p>
+      </div>
+      <div>
       <img className='detailPageOne' src='https://velog.velcdn.com/images/yonghk423/post/36e6f313-4308-4d99-a1ae-4a4df30a061d/image.gif' alt=''></img>
       <img className='detailPageTwo' src='https://velog.velcdn.com/images/yonghk423/post/baa1dfbf-4377-48e2-b72c-7eee2541cd11/image.gif' alt=''></img>
       <img className='detailPageThr' src='https://velog.velcdn.com/images/yonghk423/post/85abb4eb-ca01-4b5d-af30-5e771c0f88a3/image.gif' alt=''></img>
+      </div>
+    </div>
+    <div className='cartBox'>
+      <div className='lastSev'>  
       <h2>즐겨찾기 목록 삭제 및 모달창(글 작성 및 삭제)</h2>
+      <p></p>
+      </div>
+      <div>
       <img className='cartModalImgOne' src='https://velog.velcdn.com/images/yonghk423/post/b6317179-15b7-44a5-9dc8-fd0228adf7c5/image.gif' alt=''></img>
       <img className='cartModalImgTwo' src='https://velog.velcdn.com/images/yonghk423/post/63285b02-b660-4236-9975-f51951ac4d94/image.gif' alt=''></img>
+      </div>
+    </div>
+    <div className='hookBox'>
+      <div className='lastEig'>  
       <h2>React.memo를 사용하여 컴포넌트 성능 최적화</h2>
       <p>기존의 값을 직접 수정하지 않으면서 새로운 값을 만들어내는 불변성을 지키는 과정을 유지해야만 값이 새로워져도 바뀐 것을 감지하기 때문에 코드를 구성함에 있어서 객체나 배열 내부의 값을 복사할 때는 얕은 복사(shalow copy)를 하여 렌더링하는 과정에서 특정 값이 바뀌었을 때만 연산을 실행하고 원하는 값이 바뀌지 않았다면 이전에 연산했던 결과를 다시 사용하는 방식으로서 React.memo를 사용하여 리렌더링 성능이 최적화 되도록 하였습니다.</p>
+      </div>
+      <img className='hookImg' src='https://velog.velcdn.com/images/hanganda23/post/ed62b630-1771-4cc1-b90a-18299d46832d/hooks.png' alt=''></img>
+    </div>
     </section>
     
     <footer class="section-footer py-4 bg-primary">
