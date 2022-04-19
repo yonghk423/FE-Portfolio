@@ -41,7 +41,7 @@ function App() {
             <h2 className='titlethr'>우리말을 재밌게 배워 바르게 쓸 수 있도록 관련된 퀴즈를 제공하는 사이트입니다 </h2>
             <h2 className='titlefour'>포지션 : 팀장 프론트엔드</h2>
             <h2 className='titlefive'>기술스텍</h2>  
-            <h2 className='titlesix'> JavaScript, React JS, React Hooks API, Axios, React Router, Styled-Components </h2>
+            <h2 className='titlesix'> JavaScript, React JS, React Hooks API, Axios, <br></br> React Router, Styled-Components </h2>
           </div>
           <img className='zero' src='https://media.vlpt.us/images/yonghk423/post/590c8996-fac0-4740-b28b-2ecf80a5b939/LandingPage.gif'></img>
         </div> 
@@ -88,24 +88,24 @@ function App() {
     <section className='last'>
     <div className='introBox'>  
     <div className='lastOne'>
-      <h2>개인 프로젝트</h2>
-      <h2>2021. 12. 01</h2>
-      <h2>추억을 담다</h2>
-      <h2>즐겁게 식사도 하고 눈도 즐거웠던 장소를 기록할 수 있는 사이트입니다.</h2>
-      <h2>기술스텍</h2>
-      <h2>TypeScript,  ReactJS, React Hooks API, Redux.js, Redux-Thunk, Axios, ExpressJS, Node.js, Sass(SCSS)</h2>
+      <h2 className='projectTitle'>개인 프로젝트</h2>
+      <h2 className='projectData'>2021. 12. 01</h2>
+      <h2 className='projectName'>추억을 담다</h2>
+      <h2 className='projectIntro'>즐겁게 식사도 하고 눈도 즐거웠던 장소를 기록할 수 있는 사이트입니다.</h2>
+      <h2 className='skill'>기술스텍</h2>
+      <h2 className='skillList'>TypeScript,  ReactJS, React Hooks API, Redux.js, <br></br> Redux-Thunk, Axios, ExpressJS, Node.js, Sass(SCSS)</h2>
     </div>      
     <img className='projectImg' src='https://velog.velcdn.com/images/yonghk423/post/6ad352f7-345b-412c-8452-5b45598ab674/image.png' alt=''></img>
     </div>
     <div className='tsBox'>
     <div className='lastTwo'>
-      <h2>TypeScript를 사용한 이유</h2>
-      <h2>높은 수준의 코드 탐색과 디버깅</h2>
-      <p>타입스크립트는 코드에 목적을 명시하고 목적에 맞지 않는 타입의 변수나 함수들에서 에러를 발생시켜 버그를 사전에 제거합니다. 또한 코드 자동완성이나 실행 전 피드백을 제공하여 작업과 동시에 디버깅이 가능해 생산성을 높일 수 있습니다. 실제로 한 연구에 따르면 모든 자바스크립트 버그의 15%가 사전에 타입스크립트로 감지할 수 있다고 합니다.</p>
-      <h2>자바스크립트 호환</h2>
-      <p>타입스크립트는 자바스크립트와 100% 호환됩니다. 따라서 프론트엔드 또는 백엔드 어디든 자바스크립트를 사용할 수 있는 곳이라면 타입스크립트도 쓸 수 있습니다. 타입스크립트는 앱과 웹을 구현하는 자바스크립트와 동일한 용도로 사용 가능하며 서버 단에서 개발이 이루어지는 복잡한 대형 프로젝트에서도 빛을 발합니다.</p>
-      <h2>강력한 생태계</h2>
-      <p>타입스크립트는 그리 오래되지 않은 언어임에도 불구하고 강력한 생태계를 가지고 있습니다. 대부분의 라이브러리들이 타입스크립트를 지원하며 마이크로소프트의 비주얼 스튜디오 코드(VSCode)를 비롯해 각종 에디터가 타입스크립트 관련 기능과 플러그인을 지원합니다.</p>
+      <h2 className='typeTitle'>TypeScript를 사용한 이유</h2>
+      <h2 className='typeIntro1'>높은 수준의 코드 탐색과 디버깅</h2>
+      <p className='p11'>타입스크립트는 코드에 목적을 명시하고 목적에 맞지 않는 타입의 변수나 함수들에서 에러를 발생시켜 버그를 사전에 제거합니다. 또한 코드 자동완성이나 실행 전 피드백을 제공하여 작업과 동시에 디버깅이 가능해 생산성을 높일 수 있습니다. 실제로 한 연구에 따르면 모든 자바스크립트 버그의 15%가 사전에 타입스크립트로 감지할 수 있다고 합니다.</p>
+      <h2 className='typeIntro2'>자바스크립트 호환</h2>
+      <p className='p12'>타입스크립트는 자바스크립트와 100% 호환됩니다. 따라서 프론트엔드 또는 백엔드 어디든 자바스크립트를 사용할 수 있는 곳이라면 타입스크립트도 쓸 수 있습니다. 타입스크립트는 앱과 웹을 구현하는 자바스크립트와 동일한 용도로 사용 가능하며 서버 단에서 개발이 이루어지는 복잡한 대형 프로젝트에서도 빛을 발합니다.</p>
+      <h2 className='typeIntro3'>강력한 생태계</h2>
+      <p className='p13'>타입스크립트는 그리 오래되지 않은 언어임에도 불구하고 강력한 생태계를 가지고 있습니다. 대부분의 라이브러리들이 타입스크립트를 지원하며 마이크로소프트의 비주얼 스튜디오 코드(VSCode)를 비롯해 각종 에디터가 타입스크립트 관련 기능과 플러그인을 지원합니다.</p>
     </div>  
     <img className='tsImg' src='https://velog.velcdn.com/images/yonghk423/post/d64535ae-ba6a-42b1-8249-1264b7d4a5c7/image.png' alt=''></img>
     </div>

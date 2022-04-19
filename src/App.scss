@@ -129,17 +129,17 @@ img {
 
       .titlefour {
         padding: 10px;
-        font-size: 20px;
+        font-size: 30px;
       }
 
       .titlefive {
         padding: 10px;
-        font-size: 20px;
+        font-size: 30px;
       }
 
       .titlesix {
         padding: 10px;
-        font-size: 18px;
+        font-size: 30px;
       }      
     }
     .zero {
@@ -288,9 +288,37 @@ img {
     grid-template-columns: auto auto;
     .lastOne {
       margin-right: 100px;
+      .projectTitle {
+        font-size: 40px;
+      }
+      .projectData {
+        font-size: 40px;
+      }
+      .projectName {
+        font-size: 30px;
+        position: relative;
+        top: 20px;
+      }
+      .projectIntro {
+        font-size: 25px;
+        position: relative;
+        top: 40px;
+      }
+      .skill {
+        font-size: 30px;
+        position: relative;
+        top: 70px;
+      }
+      .skillList {
+        position: relative;
+        top: 80px;
+      }
+      
     }
     .projectImg {
     padding: 10px;  
+    position: relative;
+    left: 15px;
     width: 400px;
     height: 400px;
   }
@@ -298,9 +326,43 @@ img {
   .tsBox {
     display: grid;
     grid-template-columns: auto auto;
+    position: relative;
+    top: 100px;
     .lastTwo {
        margin-right: 100px;
+       .typeTitle {
+         font-size: 30px;
+         position: relative;
+       }
+       .typeIntro1 {
+      font-size: 25px;
+      position: relative;
+      top: 25px;
+      }
+      .p11 {
+        position: relative;
+        top: 55px;
+      }
+      .typeIntro2 {
+        font-size: 25px;
+        position: relative;
+        top: 90px;
+      }
+      .p12 {
+        position: relative;
+        top: 125px;
+      }
+      .typeIntro3 {
+        font-size: 25px;
+        position: relative;
+        top: 170px;
+      }
+      .p13 {
+        position: relative;
+        top: 200px;
+      }
     }
+    
     .tsImg {
     padding: 10px;  
     width: 400px;
@@ -310,6 +372,8 @@ img {
   .reduxBox {
     display: grid;
     grid-template-columns: auto auto;
+    position: relative;
+    top: 400px;
     .lastThr {
       margin-right: 100px;
     }
@@ -325,6 +389,8 @@ img {
   .mainBox {
     display: grid;
     grid-template-columns: auto auto;
+    position: relative;
+    top: 400px;
     .lastFour {
       margin-right: 100px;
     }
@@ -342,6 +408,8 @@ img {
   .mainInfoBox {
     display: grid;
     grid-template-columns: auto auto;
+    position: relative;
+    top: 400px;
     .lastFive {
       margin-right: 100px;
     }
@@ -357,6 +425,8 @@ img {
     }
   }
   .detailBox {
+    position: relative;
+    top: 400px;
     .lastSix {
       margin-right: 100px;
     }
@@ -379,6 +449,8 @@ img {
   }
   }  
   .cartBox {
+    position: relative;
+    top: 400px;
     .lastSev {
       margin-right: 100px;
     }
@@ -396,6 +468,9 @@ img {
   }
   }
   .hookBox {
+    position: relative;
+    height: 1000px;
+    top: 500px;
     .lastEig {
       margin-right: 100px;
     }
