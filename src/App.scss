@@ -284,13 +284,14 @@ img {
     }
     
   }
+   
 }
 
 
 //---------------------------------------------------------------------------------------------------------------------------
 .last {
   background-color: #9c64a6;
-  // height: 1000px;
+  height: auto;
   color: white;
   padding: 100px; 
   .introBox {
@@ -379,7 +380,7 @@ img {
     width: 400px;
     height: 400px;
     position: relative;
-    left: 100px;
+    left: 90px;
   }
   }
   .reduxBox {
@@ -402,7 +403,7 @@ img {
     padding: 10px;  
     width: 400px;
     height: 400px;
-    left: 100px;
+    left: 90px;
   }
   }
   
@@ -415,22 +416,26 @@ img {
     // margin-right: 100px;
     top: 400px;
     .lastFour {
+      .p22 {
+        position: relative;
+        top: 20px;
+      }
     }
     .mainImg {
       padding: 10px;  
       width: 200px;
       height: 200px;
       position: relative;
-      left: 100px;
-      top: 25px;
+      left: 90px;
+      top: 55px;
     }
     .mainImgTwo {
       padding: 10px;  
       width: 200px;
       height: 200px;
       position: relative;
-      left: 100px;
-      top: 25px;
+      left: 90px;
+      top: 55px;
     }
   }
   .mainInfoBox {
@@ -443,22 +448,26 @@ img {
     .lastFive {
       position: relative;
       top: 60px;
+      .p23 {
+        position: relative;
+        top: 20px;
+      }
     }
     .infoImgOne {
     padding: 10px;  
     width: 200px;
     height: 200px;
     position: relative;
-    left: 100px;
-    top: 90px;
+    left: 90px;
+    top: 115px;
     }
     .infoImgtwo {
     padding: 10px;    
     width: 200px;
     height: 200px;  
     position: relative;
-    left: 100px;
-    top: 90px;
+    left: 90px;
+    top: 115px;
     }
   }
   .detailBox {
@@ -468,6 +477,10 @@ img {
     .lastSix {
       position: relative;
       top: 120px;
+      .p24 {
+        position: relative;
+        top: 20px;
+      }
     }
     display: grid;
     grid-template-columns: auto auto;
@@ -476,16 +489,16 @@ img {
     width: 200px;
     height: 200px;
     position: relative;
-    left: 100px;
-    top: 100px;
+    left: 90px;
+    top: 175px;
   }
   .detailPageTwo {
     padding: 10px;    
     width: 200px;
     height: 200px;
     position: relative;
-    left: 100px;
-    top: 100px;
+    left: 90px;
+    top: 175px;
   }
   // .detailPageThr {
   //   padding: 10px;    
@@ -498,9 +511,14 @@ img {
   .cartBox {
     position: relative;
     top: 400px;
+    height: auto;
     .lastSev {
       position: relative;
       top: 180px;
+      .p25 {
+        position: relative;
+        top: 20px;
+      }
     }
     display: grid;
     grid-template-columns: auto auto;
@@ -509,75 +527,57 @@ img {
     width: 200px;
     height: 200px;
     position: relative;
-    left: 100px;
-    top: 200px;
+    left: 90px;
+    top: 230px;
   }
   .cartModalImgTwo {
     padding: 10px; 
     width: 200px;
     height: 200px;
     position: relative;
-    left: 100px;
-    top: 200px;
+    left: 90px;
+    top: 230px;
   }
   }
   .hookBox {
     position: relative;
-    height: 1000px;
-    top: 560px;
-    // margin-right: 100px;
+    height: 1200px;
+    display: grid;
+    grid-template-columns: auto auto;
     .lastEig {
       position: relative;
       top: 80px;
+      .memo {
+        position: relative;
+        top: 600px;
+      }
+      .p26 {
+        position: relative;
+        top: 620px;
+      }
     }
-    display: grid;
-    grid-template-columns: auto auto;
+    
     .hookImg {
       padding: 10px;
       width: 400px;
       height: 400px;
       position: relative;
-      left: 100px;
-      top: 100px;
+      left: 90px;
+      top: 730px;
     }
   }
   
 }
 //----------------------------------------------------------------------------------------------------------------------------
-.section-c {
- 
-}
 
-.section-c-inner {
-  color: #fff;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin: auto;
-  max-width: 860px;
-  padding: 5rem 0;
-
-  h3 {
-    font-size: 2rem;
-  }
-
-  h2 {
-    font-size: 5rem;
-    margin-top: 1rem;
-  }
-
-  p {
-    margin-top: 1rem;
-    font-size: 1.5rem;
-  }
-}
 //----------------------------------------------------------------------------
 
 //-------------------------------------------------------------------------------------------------------
-
+.tsProject {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
 @media (max-width: 700px) {
   .section-a {
     .container {

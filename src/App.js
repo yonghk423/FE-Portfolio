@@ -76,7 +76,7 @@ function App() {
             {/* <div className='mainFive'> */}
             <div className='textBox'>
               <h2 className='logintext'>로그인, 회원가입 UI 구현</h2> 
-              <p className='p09'>모달창이 열리게 되면 api 요청을 통해 데이터를 출력해야 하는데 목록형 UI(상품 등)에서 데이터를 한번에 가져오는것이 아니라 필요한만큼, 또는 화면에 보이는 만큼만 백엔드에 요청하고 응답받아 사용하는 방식을 활용하여 데이터를 받아 오는 형식이 필요했습니다. 필요한 만큼 받아 오려면 구간을 정해줘야 하는데 limit값과 offset값을 설정하고 버튼을 클릭 하였을 때 추가적으로 받아 올 수 있도록 useEffect를 사용하여 limit값이 변경시에만 useEffect가 실행 되도록하여 버튼을 클릭시 추가적인 데이터가 나오도록 구성하였습니다.</p>             
+              <p className='p09'>깃허브 구글 로그인 버튼 같은 경우 직접 만들어야 했기 때문에 처음에는 까다로웠지만 큰 경험이었던 것 같습니다. 또한 여러 디자인들을 참고하며 최대한 사용자가 직관적으로 봤을 때 편안함을 갖을 수 있도록 폰트 사이즈, 글자 간격, 모달창 크기 등 팀원들의 조언을 받으며 최적의 상태로 수정하며 개선하였습니다.</p>             
             </div>
             <div className='imgBox'>
               <img className='loginImg' src='https://media.vlpt.us/images/yonghk423/post/6a90c5e4-e2d9-4241-9ca7-4e43d99d520e/Login.gif' alt=''></img>
@@ -123,8 +123,7 @@ function App() {
     <div className='mainBox'>
       <div className='lastFour'>
       <h2>메인 페이지 및 데이터 삭제</h2>
-      <p>rops 문법의 번거로움과 복잡 다양한 상태의 효율적인 관리를 위해 상태 관리 라이브러리 Redux를 사용하게 되었습니다. 앞에서 말한 두가지 장점을 구체적으로 설명하면 기존 React 라이브러리만 사용하는 경우에는 부모에서 자식의 자식의 자식까지 상태를 내렸어야 했는데, 리덕스를 사용하면 스토어를 사용하여 상태를 컴포넌트 구조의 바깥에 두고, 여러 컴포넌트를 거쳐서 받아올 필요 없이 아무리 깊숙한 컴포넌트에 있다 하더라도 직속 부모에게서 받아오는 것 처럼 원하는 상태값을 골라서 props 를 편리하게 받아올 수 있습니다 또한 스토어를 통해 상태를 한 곳에서 관리하기 때문에 유지 보수가 상대적으로 용이합니다.
-. 따라서 데이터를 추가하고 삭제하고 해당하는 데이터에 글을 기록하고 삭제하는 모든 과정을 Redux를 통하여 관리하였습니다.</p>      
+      <p className='p22'>사이트를 구성하는데 있어서 처음 보여지는 메인 이미지는 밑에 작은 사진 박스를 클릭 하게 되면 클릭한 사진으로 상태가 변경 될 수 있도록 useState를 사용하였습니다. 또한 메인 이미지를 클릭 할 때 디테일 페이지로 이동할 수 있도록 해줘야 하는데 단순히 이미지를 클릭하고 페이지를 이동하는 것은 사용해본 경험이 있지만 특정 이미지를 클릭시 이미지에 해당하는 데이터만 보여주는 페이지로 이동하는 것은 처음하는 시도라 처음에 착오가 생각보다 많았습니다. 크게 useParams useNavigate Array.prototype.find() 메서드를 사용하였습니다. 메인 이미지 클릭시에 함수를 호출하는 방식인 useNavigate를 사용하였고 호출 된 함수안에서 useParams로 설정한 id 값을 디테일 페이지로 보내주게 됩니다. 디테일 페이지에서 받은 아이디 값은 Array.prototype.find() 메서드를 통해 Redux useSelector로 가져온 데이터값과 일치하는 데이터 값을 반환하는 형식으로 하였습니다. 삭제 기능은 Redux 라이브러리를 사용 삭제 버튼을 클릭시에 해당하는 id값을 찾아 삭제하는 방식으로 설정하였습니다.</p>      
       </div>
       <div>
       <img className='mainImg' src='https://velog.velcdn.com/images/yonghk423/post/8283c6a0-658e-4720-ae84-2491c3d1fad2/image.gif' alt=''></img>
@@ -134,8 +133,7 @@ function App() {
     <div className='mainInfoBox'>
       <div className='lastFive'>  
       <h2>메인 페이지(데이터 추가하기)</h2>
-      <p>rops 문법의 번거로움과 복잡 다양한 상태의 효율적인 관리를 위해 상태 관리 라이브러리 Redux를 사용하게 되었습니다. 앞에서 말한 두가지 장점을 구체적으로 설명하면 기존 React 라이브러리만 사용하는 경우에는 부모에서 자식의 자식의 자식까지 상태를 내렸어야 했는데, 리덕스를 사용하면 스토어를 사용하여 상태를 컴포넌트 구조의 바깥에 두고, 여러 컴포넌트를 거쳐서 받아올 필요 없이 아무리 깊숙한 컴포넌트에 있다 하더라도 직속 부모에게서 받아오는 것 처럼 원하는 상태값을 골라서 props 를 편리하게 받아올 수 있습니다 또한 스토어를 통해 상태를 한 곳에서 관리하기 때문에 유지 보수가 상대적으로 용이합니다.
-. 따라서 데이터를 추가하고 삭제하고 해당하는 데이터에 글을 기록하고 삭제하는 모든 과정을 Redux를 통하여 관리하였습니다.</p>
+      <p className='p23'>데이터를 추가하는 방법을 어떻게 해야 할까 고민을 제일 했던 것 같습니다. 제가 만든 사이트는 이미지를 통해 기록하고 추억을 기록하는것이 제일 핵심입니다. 따라서 이미지를 추가하여 저장을 어떻게 해줘야 할까 처음에 고민을 했습니다. 이미지 데이터 자체를 저장해줘야 되는것인가라는 생각을 했지만 이미지 데이터의 url값만 상태값으로 관리 하도록 하는것이 옳은 과정이었고 Firebase Storage를 사용하여 이미지를 저장하면 이미지 url값만 받아 오도록 구성하였습니다. 또한 데이터를 업로드 하게 될 경우 데이터의 이름이 반드시 필요하도록 코드를 구성하였습니다. 왜냐하면 데이터의 이름에 따라서 데이터를 저장하도록 구성하였기 때문입니다. 이름이 없이 업도르 할 경우 에러가 발생 할 수 밖에 없기 때문에  첫번쨰 useState를 통해 입력 되는 상태값이 옳은 값인지 아닌지 점검을 하게 구성하였고 유효성 검사로 옳게 작성한 경우에만 disabled 속성을 사용하여 업로드 버튼이 활성화 되도록 하였습니다. 따라서 사전에 에러가 날 수 있는 상황을 안전하게 유지하였습니다.</p>
       </div>
       <div>      
       <img className='infoImgOne' src='https://velog.velcdn.com/images/yonghk423/post/bae8a7db-049f-4674-b2f1-115f0fb3e189/image.gif' alt=''></img>
@@ -145,8 +143,7 @@ function App() {
     <div className='detailBox'> 
       <div className='lastSix'> 
       <h2>사진 세부 정보 확인, 즐겨찾기 추가, 글 작성 및 삭제</h2>
-      <p>rops 문법의 번거로움과 복잡 다양한 상태의 효율적인 관리를 위해 상태 관리 라이브러리 Redux를 사용하게 되었습니다. 앞에서 말한 두가지 장점을 구체적으로 설명하면 기존 React 라이브러리만 사용하는 경우에는 부모에서 자식의 자식의 자식까지 상태를 내렸어야 했는데, 리덕스를 사용하면 스토어를 사용하여 상태를 컴포넌트 구조의 바깥에 두고, 여러 컴포넌트를 거쳐서 받아올 필요 없이 아무리 깊숙한 컴포넌트에 있다 하더라도 직속 부모에게서 받아오는 것 처럼 원하는 상태값을 골라서 props 를 편리하게 받아올 수 있습니다 또한 스토어를 통해 상태를 한 곳에서 관리하기 때문에 유지 보수가 상대적으로 용이합니다.
-. 따라서 데이터를 추가하고 삭제하고 해당하는 데이터에 글을 기록하고 삭제하는 모든 과정을 Redux를 통하여 관리하였습니다.</p>
+      <p className='p24'>각 데이터마다 글을 작성하고 삭제 할 수 있는 기능을 넣고 싶었습니다. 단순히 글을 기록하는 것이 아닌 특정 데이터에 글을 기록하는 것이 었기 때문에 고민을 많이 했던 것 같습니다. 첫번째로 Array.prototype.find()를 통해 이름이 같은 데이터를 찾고 데이터를 변수에 할당 된 값을 Object.assign() 메서드를 통해 얕은 복사를 하고 객체를 다시 반환 한 후 반복문을 통하여 다시 조건에 맞는 데이터 값에 할당하고 마지막으로 다시 Object.assign() 메서드를 통해 얕은 복사를 한 후 객체를 반환해 주는 과정을 코드로 작성하였습니다. 복작한 상황일 수록 한단계씩 로직의 과정을 주석을 달며 차근 차근 진행하였습니다.</p>
       </div>
       <div>
       <img className='detailPageOne' src='https://velog.velcdn.com/images/yonghk423/post/36e6f313-4308-4d99-a1ae-4a4df30a061d/image.gif' alt=''></img>
@@ -156,9 +153,8 @@ function App() {
     </div>
     <div className='cartBox'>
       <div className='lastSev'>  
-      <h2>즐겨찾기 목록 삭제 및 모달창(글 작성 및 삭제)</h2>
-      <p>rops 문법의 번거로움과 복잡 다양한 상태의 효율적인 관리를 위해 상태 관리 라이브러리 Redux를 사용하게 되었습니다. 앞에서 말한 두가지 장점을 구체적으로 설명하면 기존 React 라이브러리만 사용하는 경우에는 부모에서 자식의 자식의 자식까지 상태를 내렸어야 했는데, 리덕스를 사용하면 스토어를 사용하여 상태를 컴포넌트 구조의 바깥에 두고, 여러 컴포넌트를 거쳐서 받아올 필요 없이 아무리 깊숙한 컴포넌트에 있다 하더라도 직속 부모에게서 받아오는 것 처럼 원하는 상태값을 골라서 props 를 편리하게 받아올 수 있습니다 또한 스토어를 통해 상태를 한 곳에서 관리하기 때문에 유지 보수가 상대적으로 용이합니다.
-. 따라서 데이터를 추가하고 삭제하고 해당하는 데이터에 글을 기록하고 삭제하는 모든 과정을 Redux를 통하여 관리하였습니다.</p>
+      <h2 className='cartModal'>즐겨찾기 목록 삭제 및 모달창(글 작성 및 삭제)</h2>
+      <p className='p25'>사이트를 구성하면서 즐겨찾기한 데이터의 세부 정보를 보려면 어떤 방식으로 해야 할까하는 고민을 하였습니다. 이 부분을 앞서 4인 프로젝트에서 경험했던 모달창으로 구현 하였습니다. 모달창을 클릭시에 해당 데이터를 확인 할 수 있게 구현하였고 또한 글 기록할 수 있도록 구현 하였습니다. 모달창 데이터는 데이터를 서버에 호출하여 받아 오는 것이 아니라 이미 데이터는 서버를 통해 받아온 상태이기 때문에 클릭한 이미지에 대한 id값을 React Props로 내려 받는 방식으로 구현하였습니다.</p>
       </div>
       <div>
       <img className='cartModalImgOne' src='https://velog.velcdn.com/images/yonghk423/post/b6317179-15b7-44a5-9dc8-fd0228adf7c5/image.gif' alt=''></img>
@@ -167,76 +163,17 @@ function App() {
     </div>
     <div className='hookBox'>
       <div className='lastEig'>  
-      <h2>React.memo를 사용하여 컴포넌트 성능 최적화</h2>
-      <p>기존의 값을 직접 수정하지 않으면서 새로운 값을 만들어내는 불변성을 지키는 과정을 유지해야만 값이 새로워져도 바뀐 것을 감지하기 때문에 코드를 구성함에 있어서 객체나 배열 내부의 값을 복사할 때는 얕은 복사(shalow copy)를 하여 렌더링하는 과정에서 특정 값이 바뀌었을 때만 연산을 실행하고 원하는 값이 바뀌지 않았다면 이전에 연산했던 결과를 다시 사용하는 방식으로서 React.memo를 사용하여 리렌더링 성능이 최적화 되도록 하였습니다.</p>
+      <h2 className='memo'>React.memo를 사용하여 컴포넌트 성능 최적화</h2>
+      <p className='p26'>기존의 값을 직접 수정하지 않으면서 새로운 값을 만들어내는 불변성을 지키는 과정을 유지해야만 값이 새로워져도 바뀐 것을 감지하기 때문에 코드를 구성함에 있어서 객체나 배열 내부의 값을 복사할 때는 얕은 복사(shalow copy)를 하여 렌더링하는 과정에서 특정 값이 바뀌었을 때만 연산을 실행하고 원하는 값이 바뀌지 않았다면 이전에 연산했던 결과를 다시 사용하는 방식으로서 React.memo를 사용하여 리렌더링 성능이 최적화 되도록 하였습니다.</p>
       </div>
       <img className='hookImg' src='https://velog.velcdn.com/images/hanganda23/post/ed62b630-1771-4cc1-b90a-18299d46832d/hooks.png' alt=''></img>
-    </div>
-    </section>
-    
-    <footer class="section-footer py-4 bg-primary">
-      <div class="container">
-        <div>
-          <h2 class="text-2 mb-1">Lorem ipsum dolor sit.</h2>
-          <a href="http://twitter.com">
-            <i class="fab fa-twitter fa-2x"></i>
-          </a>
-          <a href="http://facebook.com">
-            <i class="fab fa-facebook fa-2x"></i>
-          </a>
-          <a href="http://youtube.com">
-            <i class="fab fa-youtube fa-2x"></i>
-          </a>
-        </div>
-        <div>
-          <h3>Company Info</h3>
-          <ul>
-            <li><a href="#">All Products</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms of Service</a></li>
-          </ul>
-        </div>
-        <div>
-          <h3>Blog Posts</h3>
-          <ul>
-            <li><a href="#">Lorem ipsum dolor.</a></li>
-            <li><a href="#">Lorem ipsum dolor.</a></li>
-            <li><a href="#">Lorem ipsum dolor.</a></li>
-            <li><a href="#">Lorem ipsum dolor.</a></li>
-          </ul>
-        </div>
-        <div>
-          <h3>Subscribe</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-          <form
-            class="mt-1"
-            name="email-form"
-            method="POST"
-            data-netlify="true"
-          >
-            <div class="email-form">
-              <span class="form-control-wrap"
-                ><input
-                  type="email"
-                  name="email"
-                  id="email"
-                  size="40"
-                  class="form-control"
-                  placeholder="E-mail"/></span
-              ><button type="submit" value="Submit" class="form-control submit">
-                <i class="fas fa-chevron-right"></i>
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </footer>  
+    </div>     
+    </section> 
+    <div className='tsProject'>
+
+    </div>     
   </>
-  )
-  
+  )  
   };
 
 
