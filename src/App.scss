@@ -208,10 +208,34 @@ img {
     grid-template-columns: auto auto;
     padding: 100px;
     position: relative;
-    top: 100px;
+    // top: 10px;
     
     .mainthr {
       margin-right: 100px;
+      .modalUI {
+        position: relative;
+        top: 25px;
+      }
+      .p6 {
+        position: relative;
+        top: 80px;
+      }
+      .onclick {
+        position: relative;
+        top: -50px;
+      }
+      .p7 {
+        position: relative;
+        top: 80px;
+      }
+      .datalimit {
+        position: relative;
+        top: 100px;
+      }
+      .p8 {
+        position: relative;
+        top: 120px;
+      }
     }
     .two {
       width: 400px;
@@ -223,23 +247,29 @@ img {
   .gridfive {
     display: grid;
     grid-template-columns: auto auto;
+    height: 500px;
     .textBox {
       position: relative;
+      top: 150px;
       left: 100px;
+      .logintext {
+        position: relative;
+        top: -80px;
+      }
     }
 
     .imgBox{
       position: relative;
-      left: 300px;
-      top: -20px;
+      left: 200px;
+      top: 80px;
       .loginImg {        
-        width: 250px;
-        height: 250px;
+        width: 300px;
+        height: 300px;
       }
 
       .signUpImg {
-        width: 250px;
-        height: 250px;
+        width: 300px;
+        height: 300px;
       }
     }
     
