@@ -38,6 +38,10 @@ function App() {
           <div className='main'>
             <h2 className='title'>4주 4인 팀 프로젝트 <br></br> 2021.11 - 2021.12</h2>
             <h2 className='titletwo'>나랏말싸미</h2>
+            <div className='teamSite'>
+            <a className='nara' href="https://thekingsletters.ml">배포 사이트(https://thekingsletters.ml)</a>
+            <a className='git' href="https://github.com/codestates/TheKing-sLetters">깃허브(https://github.com/codestates/TheKing-sLetters)</a>
+            </div>
             <h2 className='titlethr'>우리말을 재밌게 배워 바르게 쓸 수 있도록 관련된 퀴즈를 제공하는 사이트입니다 </h2>
             <h2 className='titlefour'>포지션 : 팀장 프론트엔드</h2>
             <h2 className='titlefive'>기술스텍</h2>  
@@ -94,6 +98,10 @@ function App() {
       <h2 className='projectTitle'>개인 프로젝트</h2>
       <h2 className='projectData'>2021. 12. 01</h2>
       <h2 className='projectName'>추억을 담다</h2>
+      <div className='miniSite'>
+        <a className='remember' href="https://market-list-eight.vercel.app">배포 사이트(https://market-list-eight.vercel.app)</a>
+        <a className='git' href="https://github.com/yonghk423/keep-memories">깃허브(https://github.com/yonghk423/keep-memories)</a>
+      </div>
       <h2 className='projectIntro'>즐겁게 식사도 하고 눈도 즐거웠던 장소를 기록할 수 있는 사이트입니다.</h2>
       <h2 className='skill'>기술스텍</h2>
       <h2 className='skillList'>TypeScript,  ReactJS, React Hooks API, Redux.js, <br></br> Redux-Thunk, Axios, ExpressJS, Node.js, Sass(SCSS)</h2>
@@ -168,10 +176,7 @@ function App() {
       </div>
       <img className='hookImg' src='https://velog.velcdn.com/images/hanganda23/post/ed62b630-1771-4cc1-b90a-18299d46832d/hooks.png' alt=''></img>
     </div>     
-    </section> 
-    <div className='tsProject'>
-
-    </div>     
+    </section>       
   </>
   )  
   };

@@ -121,10 +121,28 @@ img {
         padding: 10px;
         font-size: 40px;
       }
-
+      .teamSite {
+        display: grid;
+        grid-template-columns: auto;
+        .nara {
+        color: white;
+        font-size: 22.5px;
+        position: relative;
+        left: 10px;
+      }
+      .git {
+        color: white;
+        font-size: 22.5px;
+        position: relative;
+        left: 10px;
+      }
+      }
+      
       .titlethr {
         padding: 10px;
-        font-size: 20px;
+        font-size: 22.5px;
+        position: relative;
+        top: 5px;
       }
 
       .titlefour {
@@ -309,6 +327,24 @@ img {
         font-size: 30px;
         position: relative;
         top: 20px;
+      }
+      .miniSite {
+        display: grid;
+        grid-template-columns: auto;
+        position: relative;
+        top: 20px;
+        .remember {
+          color: white;
+          font-size: 22.5px;
+          position: relative;
+          // left: 10px;
+        }
+        .git {
+          color: white;
+          font-size: 22.5px;
+          position: relative;
+          // left: 10px;
+        }
       }
       .projectIntro {
         font-size: 25px;
@@ -573,11 +609,6 @@ img {
 //----------------------------------------------------------------------------
 
 //-------------------------------------------------------------------------------------------------------
-.tsProject {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-}
 @media (max-width: 700px) {
   .section-a {
     .container {
