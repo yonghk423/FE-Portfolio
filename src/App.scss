@@ -248,6 +248,8 @@ img {
     display: grid;
     grid-template-columns: auto auto;
     height: 500px;
+    margin-right: 290px;
+
     .textBox {
       position: relative;
       top: 150px;
@@ -256,20 +258,28 @@ img {
         position: relative;
         top: -80px;
       }
+      .p09 {
+        position: relative;
+        top: -50px;
+      }
     }
 
     .imgBox{
-      position: relative;
-      left: 200px;
-      top: 80px;
-      .loginImg {        
-        width: 300px;
-        height: 300px;
+      
+      .loginImg {   
+        position: relative;
+        left: 200px;     
+        width: 200px;
+        height: 200px;
+        top: 100px;
       }
 
       .signUpImg {
-        width: 300px;
-        height: 300px;
+        position: relative;
+        left: 200px;   
+        width: 200px;
+        height: 200px;
+        top: 100px;
       }
     }
     
@@ -321,6 +331,7 @@ img {
     left: 15px;
     width: 400px;
     height: 400px;
+    left: 100px;
   }
   }
   .tsBox {
@@ -329,7 +340,7 @@ img {
     position: relative;
     top: 100px;
     .lastTwo {
-       margin-right: 100px;
+      //  margin-right: 100px;
        .typeTitle {
          font-size: 30px;
          position: relative;
@@ -367,20 +378,31 @@ img {
     padding: 10px;  
     width: 400px;
     height: 400px;
+    position: relative;
+    left: 100px;
   }
   }
   .reduxBox {
     display: grid;
     grid-template-columns: auto auto;
     position: relative;
+    // margin-right: 100px;
     top: 400px;
     .lastThr {
-      margin-right: 100px;
+      .redux {
+        font-size: 30px;
+      }
+      .p21 {
+        position: relative;
+        top: 20px;
+      }
     }
     .reduxImg {
+    position: relative;
     padding: 10px;  
     width: 400px;
     height: 400px;
+    left: 100px;
   }
   }
   
@@ -390,19 +412,25 @@ img {
     display: grid;
     grid-template-columns: auto auto;
     position: relative;
+    // margin-right: 100px;
     top: 400px;
     .lastFour {
-      margin-right: 100px;
     }
     .mainImg {
       padding: 10px;  
-      width: 250px;
-      height: 250px;
+      width: 200px;
+      height: 200px;
+      position: relative;
+      left: 100px;
+      top: 25px;
     }
     .mainImgTwo {
       padding: 10px;  
-      width: 250px;
-      height: 250px;
+      width: 200px;
+      height: 200px;
+      position: relative;
+      left: 100px;
+      top: 25px;
     }
   }
   .mainInfoBox {
@@ -410,25 +438,36 @@ img {
     grid-template-columns: auto auto;
     position: relative;
     top: 400px;
+    // margin-right: 100px;
+
     .lastFive {
-      margin-right: 100px;
+      position: relative;
+      top: 60px;
     }
     .infoImgOne {
     padding: 10px;  
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 100px;
+    top: 90px;
     }
     .infoImgtwo {
     padding: 10px;    
-    width: 250px;
-    height: 250px;    
+    width: 200px;
+    height: 200px;  
+    position: relative;
+    left: 100px;
+    top: 90px;
     }
   }
   .detailBox {
     position: relative;
     top: 400px;
+
     .lastSix {
-      margin-right: 100px;
+      position: relative;
+      top: 120px;
     }
     display: grid;
     grid-template-columns: auto auto;
@@ -436,43 +475,60 @@ img {
     padding: 10px;  
     width: 200px;
     height: 200px;
+    position: relative;
+    left: 100px;
+    top: 100px;
   }
   .detailPageTwo {
     padding: 10px;    
     width: 200px;
     height: 200px;
+    position: relative;
+    left: 100px;
+    top: 100px;
   }
-  .detailPageThr {
-    padding: 10px;    
-    width: 200px;
-    height: 200px;
-  }
+  // .detailPageThr {
+  //   padding: 10px;    
+  //   width: 170px;
+  //   height: 170px;
+  //   position: relative;
+  //   left: 100px;
+  // }
   }  
   .cartBox {
     position: relative;
     top: 400px;
     .lastSev {
-      margin-right: 100px;
+      position: relative;
+      top: 180px;
     }
     display: grid;
     grid-template-columns: auto auto;
     .cartModalImgOne {
     padding: 10px;      
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 100px;
+    top: 200px;
   }
   .cartModalImgTwo {
     padding: 10px; 
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 100px;
+    top: 200px;
   }
   }
   .hookBox {
     position: relative;
     height: 1000px;
-    top: 500px;
+    top: 560px;
+    // margin-right: 100px;
     .lastEig {
-      margin-right: 100px;
+      position: relative;
+      top: 80px;
     }
     display: grid;
     grid-template-columns: auto auto;
@@ -480,6 +536,9 @@ img {
       padding: 10px;
       width: 400px;
       height: 400px;
+      position: relative;
+      left: 100px;
+      top: 100px;
     }
   }
   

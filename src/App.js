@@ -73,14 +73,17 @@ function App() {
             <img className='two' src='https://media.vlpt.us/images/yonghk423/post/ef581d6b-fd99-4dd0-8587-9a6c97281e38/마이페이지-rankmodal.gif'></img>       
           </div>
           <div className='gridfive'>
+            {/* <div className='mainFive'> */}
             <div className='textBox'>
-              <h2 className='logintext'>로그인, 회원가입 UI 구현</h2>              
+              <h2 className='logintext'>로그인, 회원가입 UI 구현</h2> 
+              <p className='p09'>모달창이 열리게 되면 api 요청을 통해 데이터를 출력해야 하는데 목록형 UI(상품 등)에서 데이터를 한번에 가져오는것이 아니라 필요한만큼, 또는 화면에 보이는 만큼만 백엔드에 요청하고 응답받아 사용하는 방식을 활용하여 데이터를 받아 오는 형식이 필요했습니다. 필요한 만큼 받아 오려면 구간을 정해줘야 하는데 limit값과 offset값을 설정하고 버튼을 클릭 하였을 때 추가적으로 받아 올 수 있도록 useEffect를 사용하여 limit값이 변경시에만 useEffect가 실행 되도록하여 버튼을 클릭시 추가적인 데이터가 나오도록 구성하였습니다.</p>             
             </div>
             <div className='imgBox'>
               <img className='loginImg' src='https://media.vlpt.us/images/yonghk423/post/6a90c5e4-e2d9-4241-9ca7-4e43d99d520e/Login.gif' alt=''></img>
               <img className='signUpImg' src='https://media.vlpt.us/images/yonghk423/post/525a7bc0-f56f-4740-a026-412046315040/SignUp.gif' alt=''></img>
             </div>
-          </div>                  
+          {/* </div>  */}
+          </div>                 
         </div>
       </div>
     </section>   
@@ -111,8 +114,8 @@ function App() {
     </div>
     <div className='reduxBox'>
     <div className='lastThr'>   
-      <h2>Redux</h2>
-      <p>Props 문법의 번거로움과 복잡 다양한 상태의 효율적인 관리를 위해 상태 관리 라이브러리 Redux를 사용하게 되었습니다. 앞에서 말한 두가지 장점을 구체적으로 설명하면 기존 React 라이브러리만 사용하는 경우에는 부모에서 자식의 자식의 자식까지 상태를 내렸어야 했는데, 리덕스를 사용하면 스토어를 사용하여 상태를 컴포넌트 구조의 바깥에 두고, 여러 컴포넌트를 거쳐서 받아올 필요 없이 아무리 깊숙한 컴포넌트에 있다 하더라도 직속 부모에게서 받아오는 것 처럼 원하는 상태값을 골라서 props 를 편리하게 받아올 수 있습니다 또한 스토어를 통해 상태를 한 곳에서 관리하기 때문에 유지 보수가 상대적으로 용이합니다.
+      <h2 className='redux'>Redux</h2>
+      <p className='p21'>Props 문법의 번거로움과 복잡 다양한 상태의 효율적인 관리를 위해 상태 관리 라이브러리 Redux를 사용하게 되었습니다. 앞에서 말한 두가지 장점을 구체적으로 설명하면 기존 React 라이브러리만 사용하는 경우에는 부모에서 자식의 자식의 자식까지 상태를 내렸어야 했는데, 리덕스를 사용하면 스토어를 사용하여 상태를 컴포넌트 구조의 바깥에 두고, 여러 컴포넌트를 거쳐서 받아올 필요 없이 아무리 깊숙한 컴포넌트에 있다 하더라도 직속 부모에게서 받아오는 것 처럼 원하는 상태값을 골라서 props 를 편리하게 받아올 수 있습니다 또한 스토어를 통해 상태를 한 곳에서 관리하기 때문에 유지 보수가 상대적으로 용이합니다.
 . 따라서 데이터를 추가하고 삭제하고 해당하는 데이터에 글을 기록하고 삭제하는 모든 과정을 Redux를 통하여 관리하였습니다.</p>
     </div>
     <img className='reduxImg' src='https://velog.velcdn.com/images/fstone/post/9f5c4502-8820-48dd-8e66-8cd402530e35/redux-logo-landscape.png' alt=''></img>
@@ -120,7 +123,8 @@ function App() {
     <div className='mainBox'>
       <div className='lastFour'>
       <h2>메인 페이지 및 데이터 삭제</h2>
-      <p></p>      
+      <p>rops 문법의 번거로움과 복잡 다양한 상태의 효율적인 관리를 위해 상태 관리 라이브러리 Redux를 사용하게 되었습니다. 앞에서 말한 두가지 장점을 구체적으로 설명하면 기존 React 라이브러리만 사용하는 경우에는 부모에서 자식의 자식의 자식까지 상태를 내렸어야 했는데, 리덕스를 사용하면 스토어를 사용하여 상태를 컴포넌트 구조의 바깥에 두고, 여러 컴포넌트를 거쳐서 받아올 필요 없이 아무리 깊숙한 컴포넌트에 있다 하더라도 직속 부모에게서 받아오는 것 처럼 원하는 상태값을 골라서 props 를 편리하게 받아올 수 있습니다 또한 스토어를 통해 상태를 한 곳에서 관리하기 때문에 유지 보수가 상대적으로 용이합니다.
+. 따라서 데이터를 추가하고 삭제하고 해당하는 데이터에 글을 기록하고 삭제하는 모든 과정을 Redux를 통하여 관리하였습니다.</p>      
       </div>
       <div>
       <img className='mainImg' src='https://velog.velcdn.com/images/yonghk423/post/8283c6a0-658e-4720-ae84-2491c3d1fad2/image.gif' alt=''></img>
@@ -130,7 +134,8 @@ function App() {
     <div className='mainInfoBox'>
       <div className='lastFive'>  
       <h2>메인 페이지(데이터 추가하기)</h2>
-      <p></p>
+      <p>rops 문법의 번거로움과 복잡 다양한 상태의 효율적인 관리를 위해 상태 관리 라이브러리 Redux를 사용하게 되었습니다. 앞에서 말한 두가지 장점을 구체적으로 설명하면 기존 React 라이브러리만 사용하는 경우에는 부모에서 자식의 자식의 자식까지 상태를 내렸어야 했는데, 리덕스를 사용하면 스토어를 사용하여 상태를 컴포넌트 구조의 바깥에 두고, 여러 컴포넌트를 거쳐서 받아올 필요 없이 아무리 깊숙한 컴포넌트에 있다 하더라도 직속 부모에게서 받아오는 것 처럼 원하는 상태값을 골라서 props 를 편리하게 받아올 수 있습니다 또한 스토어를 통해 상태를 한 곳에서 관리하기 때문에 유지 보수가 상대적으로 용이합니다.
+. 따라서 데이터를 추가하고 삭제하고 해당하는 데이터에 글을 기록하고 삭제하는 모든 과정을 Redux를 통하여 관리하였습니다.</p>
       </div>
       <div>      
       <img className='infoImgOne' src='https://velog.velcdn.com/images/yonghk423/post/bae8a7db-049f-4674-b2f1-115f0fb3e189/image.gif' alt=''></img>
@@ -140,18 +145,20 @@ function App() {
     <div className='detailBox'> 
       <div className='lastSix'> 
       <h2>사진 세부 정보 확인, 즐겨찾기 추가, 글 작성 및 삭제</h2>
-      <p></p>
+      <p>rops 문법의 번거로움과 복잡 다양한 상태의 효율적인 관리를 위해 상태 관리 라이브러리 Redux를 사용하게 되었습니다. 앞에서 말한 두가지 장점을 구체적으로 설명하면 기존 React 라이브러리만 사용하는 경우에는 부모에서 자식의 자식의 자식까지 상태를 내렸어야 했는데, 리덕스를 사용하면 스토어를 사용하여 상태를 컴포넌트 구조의 바깥에 두고, 여러 컴포넌트를 거쳐서 받아올 필요 없이 아무리 깊숙한 컴포넌트에 있다 하더라도 직속 부모에게서 받아오는 것 처럼 원하는 상태값을 골라서 props 를 편리하게 받아올 수 있습니다 또한 스토어를 통해 상태를 한 곳에서 관리하기 때문에 유지 보수가 상대적으로 용이합니다.
+. 따라서 데이터를 추가하고 삭제하고 해당하는 데이터에 글을 기록하고 삭제하는 모든 과정을 Redux를 통하여 관리하였습니다.</p>
       </div>
       <div>
       <img className='detailPageOne' src='https://velog.velcdn.com/images/yonghk423/post/36e6f313-4308-4d99-a1ae-4a4df30a061d/image.gif' alt=''></img>
       <img className='detailPageTwo' src='https://velog.velcdn.com/images/yonghk423/post/baa1dfbf-4377-48e2-b72c-7eee2541cd11/image.gif' alt=''></img>
-      <img className='detailPageThr' src='https://velog.velcdn.com/images/yonghk423/post/85abb4eb-ca01-4b5d-af30-5e771c0f88a3/image.gif' alt=''></img>
+      {/* <img className='detailPageThr' src='https://velog.velcdn.com/images/yonghk423/post/85abb4eb-ca01-4b5d-af30-5e771c0f88a3/image.gif' alt=''></img> */}
       </div>
     </div>
     <div className='cartBox'>
       <div className='lastSev'>  
       <h2>즐겨찾기 목록 삭제 및 모달창(글 작성 및 삭제)</h2>
-      <p></p>
+      <p>rops 문법의 번거로움과 복잡 다양한 상태의 효율적인 관리를 위해 상태 관리 라이브러리 Redux를 사용하게 되었습니다. 앞에서 말한 두가지 장점을 구체적으로 설명하면 기존 React 라이브러리만 사용하는 경우에는 부모에서 자식의 자식의 자식까지 상태를 내렸어야 했는데, 리덕스를 사용하면 스토어를 사용하여 상태를 컴포넌트 구조의 바깥에 두고, 여러 컴포넌트를 거쳐서 받아올 필요 없이 아무리 깊숙한 컴포넌트에 있다 하더라도 직속 부모에게서 받아오는 것 처럼 원하는 상태값을 골라서 props 를 편리하게 받아올 수 있습니다 또한 스토어를 통해 상태를 한 곳에서 관리하기 때문에 유지 보수가 상대적으로 용이합니다.
+. 따라서 데이터를 추가하고 삭제하고 해당하는 데이터에 글을 기록하고 삭제하는 모든 과정을 Redux를 통하여 관리하였습니다.</p>
       </div>
       <div>
       <img className='cartModalImgOne' src='https://velog.velcdn.com/images/yonghk423/post/b6317179-15b7-44a5-9dc8-fd0228adf7c5/image.gif' alt=''></img>
