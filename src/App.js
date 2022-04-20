@@ -42,7 +42,7 @@ function App() {
             <a className='nara' href="https://thekingsletters.ml">배포 사이트(https://thekingsletters.ml)</a>
             <a className='git' href="https://github.com/codestates/TheKing-sLetters">깃허브(https://github.com/codestates/TheKing-sLetters)</a>
             </div>
-            <h2 className='titlethr'>우리말을 재밌게 배워 바르게 쓸 수 있도록 관련된 퀴즈를 제공하는 사이트입니다 </h2>
+            <h2 className='titlethr'>우리말을 재밌게 배워 바르게 쓸 수 있도록 관련된 퀴즈를 제공하는 사이트입니다</h2>
             <h2 className='titlefour'>포지션 : 팀장 프론트엔드</h2>
             <h2 className='titlefive'>기술스텍</h2>  
             <h2 className='titlesix'> JavaScript, React JS, React Hooks API, Axios, <br></br> React Router, Styled-Components </h2>
@@ -58,7 +58,7 @@ function App() {
             <h2 className='title1'>Axios, useState, useEffect 왜 사용하였는가</h2>
             <p className='p3'><h3>Axios</h3>Fetch API를 사용하지 않고 Axios를 사용한 이유는 자동으로 JSON 데이터 형식으로 변환을 해주고 좀 더 많은 브라우저에 지원되며 실무에서 Fetch API보다 더 선호하는 경향이 있기 때문입니다.</p>
             <p className='p4'><h3>useState</h3>리액트 16.8 이전 버전에서는 함수형 컴포넌트에서는 상태를 관리할 수 없었지만, 리액트 16.8 에서 React Hooks API 기능이 도입되면서 함수형 컴포넌트에서도 상태를 관리할 수 있게 되었습니다. 리액트는 부모 컴포넌트 렌더링, state , props가 변경 될 때 리렌더링이 됩니다. 따라서 데이터 변경시 리렌더링이 되려면 useState를 사용해야하며 계속 일정한 데이터를 기억하도록 해야하고 상태가 변경될 때 자동으로 관련된 리렌더링이 되게 만들고 싶으면 변수가 아닌 state에 저장해서 데이터바인딩을 해야 합니다.</p> 
-            <p className='p5'><h2>useEffect</h2>useEffect는 렌더링 직후 추가 작업을 설정할 수 있는 React Hooks API입니다 따라서 렌더링 직후 useEffect를 이용한 Axios 비동기 통신을 호출하고 받아온 데이터 값을 useState를 통하여 상태 관리를 하도록 구성하였습니다.</p>
+            <p className='p5'><h2>useEffect</h2>useEffect는 렌더링 직후 추가 작업을 설정할 수 있는 React Hooks API입니다. 따라서 렌더링 직후 useEffect를 이용한 Axios 비동기 통신을 호출하고 받아온 데이터 값을 useState를 통하여 상태 관리를 하도록 구성하였습니다.</p>
           </div>
           <div className='imgone'> 
             <img className='one' src="https://media.vlpt.us/images/yonghk423/post/b4187126-a54f-4383-b4a3-56207cda705a/MyPage1.gif" alt=''></img>
@@ -68,7 +68,7 @@ function App() {
             <div className='mainthr'>
               <h2 className='MyPage RankModal'>MyPage RankModal</h2>
               <h2 className='modalUI'>모달창 UI</h2>
-              <p className='p6'>position: fixed을 사용하여 특정 위치에 고정시켜 스크롤을 내려도 그 자리에 계속 위치하게 설정 시키며 z-index을 이용하여 박스를 화면 우선 순위로 지정하였다. z-index 속성이 적용되기 위해서는 z-index를 적용한 영역이 position:static 값이 아니어야 한다는 점을 주의하였다.</p>
+              <p className='p6'>position: fixed을 사용하여 특정 위치에 고정시켜 스크롤을 내려도 그 자리에 계속 위치하게 설정 시키며 z-index을 이용하여 박스를 화면 우선 순위로 지정하였습니다. z-index 속성이 적용되기 위해서는 z-index를 적용한 영역이 position:static 값이 아니어야 한다는 점을 주의하였습니다.</p>
               <h2 className='onclick'>useState를 이용한 onClick 이벤트 발생시 모달 상자 띄우기</h2>
               <p className='p7'>모달창을 띄우려면 버튼 클릭시 모달 상자를 띄우고 다시 버튼 클릭시 상자를 닫는 과정이 기본적인 로직의 순서입니다. 앞에서 말했던 것 처럼 상태가 변경 될 때 자동으로 관련된 리렌더링이 되게 하려면 useState를 사용해야 해아 합니다. 처음 상태값을 Boolean 타입인 false로 설정하고 onClick 이벤트 발생시 상태값을 true로 변경하여 상자를 띄우고 반대로 상자를 닫을 때는 true였던 값을 다시 false로 상태를 변경하도록 하였습니다.</p>   
               <h2 className='datalimit'>useState, useEffect를 이용한 데이터 출력(limit, offset 값 설정)</h2>  
@@ -102,7 +102,7 @@ function App() {
         <a className='remember' href="https://market-list-eight.vercel.app">배포 사이트(https://market-list-eight.vercel.app)</a>
         <a className='git' href="https://github.com/yonghk423/keep-memories">깃허브(https://github.com/yonghk423/keep-memories)</a>
       </div>
-      <h2 className='projectIntro'>즐겁게 식사도 하고 눈도 즐거웠던 장소를 기록할 수 있는 사이트입니다.</h2>
+      <h2 className='projectIntro'>즐겁게 식사도 하고 눈도 즐거웠던 장소를 사진과 함께 기록할 수 있는 사이트입니다</h2>
       <h2 className='skill'>기술스텍</h2>
       <h2 className='skillList'>TypeScript,  ReactJS, React Hooks API, Redux.js, <br></br> Redux-Thunk, Axios, ExpressJS, Node.js, Sass(SCSS)</h2>
     </div>      
@@ -123,7 +123,7 @@ function App() {
     <div className='reduxBox'>
     <div className='lastThr'>   
       <h2 className='redux'>Redux</h2>
-      <p className='p21'>Props 문법의 번거로움과 복잡 다양한 상태의 효율적인 관리를 위해 상태 관리 라이브러리 Redux를 사용하게 되었습니다. 앞에서 말한 두가지 장점을 구체적으로 설명하면 기존 React 라이브러리만 사용하는 경우에는 부모에서 자식의 자식의 자식까지 상태를 내렸어야 했는데, 리덕스를 사용하면 스토어를 사용하여 상태를 컴포넌트 구조의 바깥에 두고, 여러 컴포넌트를 거쳐서 받아올 필요 없이 아무리 깊숙한 컴포넌트에 있다 하더라도 직속 부모에게서 받아오는 것 처럼 원하는 상태값을 골라서 props 를 편리하게 받아올 수 있습니다 또한 스토어를 통해 상태를 한 곳에서 관리하기 때문에 유지 보수가 상대적으로 용이합니다.
+      <p className='p21'>Props 문법의 번거로움과 복잡 다양한 상태의 효율적인 관리를 위해 상태 관리 라이브러리 Redux를 사용하게 되었습니다. 앞에서 말한 두가지 장점을 구체적으로 설명하면 기존 React 라이브러리만 사용하는 경우에는 부모에서 자식의 자식의 자식까지 상태를 내렸어야 했는데, 리덕스를 사용하면 스토어를 사용하여 상태를 컴포넌트 구조의 바깥에 두고, 여러 컴포넌트를 거쳐서 받아올 필요 없이 아무리 깊숙한 컴포넌트에 있다 하더라도 직속 부모에게서 받아오는 것 처럼 원하는 상태값을 골라서 props 를 편리하게 받아올 수 있습니다. 또한 스토어를 통해 상태를 한 곳에서 관리하기 때문에 유지 보수가 상대적으로 용이합니다.
 . 따라서 데이터를 추가하고 삭제하고 해당하는 데이터에 글을 기록하고 삭제하는 모든 과정을 Redux를 통하여 관리하였습니다.</p>
     </div>
     <img className='reduxImg' src='https://velog.velcdn.com/images/fstone/post/9f5c4502-8820-48dd-8e66-8cd402530e35/redux-logo-landscape.png' alt=''></img>
@@ -151,7 +151,7 @@ function App() {
     <div className='detailBox'> 
       <div className='lastSix'> 
       <h2>사진 세부 정보 확인, 즐겨찾기 추가, 글 작성 및 삭제</h2>
-      <p className='p24'>각 데이터마다 글을 작성하고 삭제 할 수 있는 기능을 넣고 싶었습니다. 단순히 글을 기록하는 것이 아닌 특정 데이터에 글을 기록하는 것이 었기 때문에 고민을 많이 했던 것 같습니다. 첫번째로 Array.prototype.find()를 통해 이름이 같은 데이터를 찾고 데이터를 변수에 할당 된 값을 Object.assign() 메서드를 통해 얕은 복사를 하고 객체를 다시 반환 한 후 반복문을 통하여 다시 조건에 맞는 데이터 값에 할당하고 마지막으로 다시 Object.assign() 메서드를 통해 얕은 복사를 한 후 객체를 반환해 주는 과정을 코드로 작성하였습니다. 복작한 상황일 수록 한단계씩 로직의 과정을 주석을 달며 차근 차근 진행하였습니다.</p>
+      <p className='p24'>각 데이터마다 글을 작성하고 삭제 할 수 있는 기능을 넣고 싶었습니다. 단순히 글을 기록하는 것이 아닌 특정 데이터에 글을 기록하는 것이 었기 때문에 고민을 많이 했던 것 같습니다. 첫번째로 Array.prototype.find()를 통해 이름이 같은 데이터를 찾고 데이터를 변수에 할당 된 값을 Object.assign() 메서드를 통해 얕은 복사를 하고 객체를 다시 반환 한 후 반복문을 통하여 다시 조건에 맞는 데이터 값에 할당하고 마지막으로 다시 Object.assign() 메서드를 통해 얕은 복사를 한 후 객체를 반환해 주는 과정을 코드로 작성하였습니다. 복잡한 상황일 수록 한단계씩 로직의 과정을 주석을 달며 차근 차근 진행하였습니다.</p>
       </div>
       <div>
       <img className='detailPageOne' src='https://velog.velcdn.com/images/yonghk423/post/36e6f313-4308-4d99-a1ae-4a4df30a061d/image.gif' alt=''></img>
